@@ -80,14 +80,14 @@ public class ControlStatementsExample {
 //		}
 		//Nested for loop
 		//outer loop
-		for (int i = 1; i <= 2; i++) {
-			System.out.println("outer " + i);  // excutes 2 times
-
-			// inner loop
-			for (int j = 1; j <= 3; j++) {
-				System.out.println("inner " + j); // Excutes 6 times (2*3) 
-			}
-		}
+//		for (int i = 1; i <= 2; i++) {
+//			System.out.println("outer " + i);  // excutes 2 times
+//
+//			// inner loop
+//			for (int j = 1; j <= 3; j++) {
+//				System.out.println("inner " + j); // Excutes 6 times (2*3) 
+//			}
+//		}
 		
 		
 	}
