@@ -1,4 +1,6 @@
-package BhoomikaAssesments;
+package ControlStatements.BhoomikaAssesments;
+
+
 
 public class Student {
 	String Name;
@@ -8,7 +10,7 @@ public class Student {
 	int Mark3;
 	int TotalMarks;
 
-	public void calculateTotal() {
+	public  void calculateTotal() {
 		TotalMarks = (Mark1 + Mark2 + Mark3);
 	}
 
@@ -21,7 +23,7 @@ public class Student {
 		Mark3 = mar3;
 		System.out.println("Student name :" + name);
 		System.out.println("Student ID : " + RollNo);
-		System.out.println("Total Marks " + (Mark1 + Mark2 + Mark3));
+		System.out.println("Total is " + (Mark1 + Mark2 + Mark3));
 	}
 
 	public static void main(String[] args) {
