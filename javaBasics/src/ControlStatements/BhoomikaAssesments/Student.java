@@ -8,10 +8,10 @@ public class Student {
 	int Mark3;
 	int TotalMarks;
 
-	public void calculateTotal(int mar1,int mar2,int mar3) {
-		Mark1 = mar1;
-		Mark2 = mar2;
-		Mark3 = mar3;
+	public void calculateTotal(int english,int maths,int cs) {
+		Mark1 = english;
+		Mark2 = maths;
+		Mark3 = cs;
 	    TotalMarks = (Mark1 + Mark2 + Mark3);
 	}
 
