@@ -1,59 +1,43 @@
 package ControlStatements.SavitaAssessments;
 
-class Student {
-
+public class StudentDetails {
 	String Name;
-
 	int rollNo;
-
+	int Eng;
+	int Maths;
+	int Chemistry;
 	String Branch;
-
 	String Division;
+	int TotalMarks;
 
-}
+	public void calculateTotal() {
+		TotalMarks = (Eng + Maths + Chemistry);
+	}
 
-class marks {
+	public void displayStudDetails(String name, int rolNo, int eng, int maths, int chemistry) {
 
-	int Cad = 80;
-
-	int Maths = 90;
-
-	int CS = 100;
-
-	int Physics = 85;
-
-	int TotalMarks = (Cad + Maths + CS + Physics);
-
-}
-
-class StudentDetails {
+		Name = name;
+		rollNo = rolNo;
+		Eng = eng;
+		Maths = maths;
+		Chemistry = chemistry;
+		System.out.println("Student name :" + name);
+		System.out.println("Student rolno : " + rolNo);
+        System.out.println("Total is " + (Eng + Maths + Chemistry));
+        System.out.println("Percentage is " + (Eng + Maths + Chemistry)*100/300);   
+	}
 
 	public static void main(String[] args) {
 
-		Student details = new Student();
-
-		details.Name = "Sahasra";
-
-		details.rollNo = 55;
-
-		details.Branch = "CS";
-
-		details.Division = "A";
-
-		System.out.println("Student Name is : " + details.Name);
-
-		System.out.println("Student Roll No is :" + details.rollNo);
-
-		System.out.println("Student Branch No is :" + details.Branch);
-
-		System.out.println("Student Division No is :" + details.Division);
-
-		marks m = new marks();
-
-		System.out.println("Total Marks is :" + m.TotalMarks);
-
-		System.out.println("Percentage:" + m.TotalMarks * 100 / 400);
-
+		StudentDetails stud = new StudentDetails();
+		stud.displayStudDetails("Sahasra", 35, 55, 89, 96);
+		stud.calculateTotal();
+		
+		StudentDetails stud1 = new StudentDetails();
+		stud1.Branch = "CS";
+		stud1.Division = "B";
+		System.out.println("Student branch is  :" + stud1.Branch);
+		System.out.println("Student division is  : " + stud1.Division);
 	}
 
 }
