@@ -1,7 +1,5 @@
 package ControlStatements.BhoomikaAssesments;
 
-
-
 public class Student {
 	String Name;
 	int rollNo;
@@ -10,29 +8,29 @@ public class Student {
 	int Mark3;
 	int TotalMarks;
 
-	public  void calculateTotal() {
-		TotalMarks = (Mark1 + Mark2 + Mark3);
+	public void calculateTotal(int english,int maths,int cs) {
+		Mark1 = english;
+		Mark2 = maths;
+		Mark3 = cs;
+	    TotalMarks = (Mark1 + Mark2 + Mark3);
 	}
 
-	public void displayStudDetails(String name, int RollNo, int mar1, int mar2, int mar3) {
+	public void displayStudDetails(String name, int RollNo) {
 
 		Name = name;
 		rollNo = RollNo;
-		Mark1 = mar1;
-		Mark2 = mar2;
-		Mark3 = mar3;
 		System.out.println("Student name :" + name);
 		System.out.println("Student ID : " + RollNo);
-		System.out.println("Total is " + (Mark1 + Mark2 + Mark3));
+		System.out.println("Total is " + TotalMarks);
 	}
 
 	public static void main(String[] args) {
 
 		// TODO Auto-generated method stub
 		Student obj = new Student();
-		obj.displayStudDetails("Bhoomika", 12, 99, 89, 89);
-		obj.calculateTotal();
-
+		obj.calculateTotal(98, 99, 100);
+		obj.displayStudDetails("Bhoomika", 12);
+		
 	}
 
 }
