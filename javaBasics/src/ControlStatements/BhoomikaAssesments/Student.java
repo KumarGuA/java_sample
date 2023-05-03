@@ -1,7 +1,5 @@
 package ControlStatements.BhoomikaAssesments;
 
-
-
 public class Student {
 	String Name;
 	int rollNo;
