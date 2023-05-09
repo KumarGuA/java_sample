@@ -1,6 +1,7 @@
 package Oops_Inheritence;
 
-public class Myclass extends B
+public class Myclass {
+//extends B
 	
 	
 	public static void main(String[] args) {
