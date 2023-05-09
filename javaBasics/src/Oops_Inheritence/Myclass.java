@@ -25,5 +25,5 @@ public class Myclass extends B
    
 		
 	}
-
 }
+
