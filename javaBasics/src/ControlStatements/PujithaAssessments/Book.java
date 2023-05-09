@@ -14,6 +14,7 @@ public class Book {
 		System.out.println(b.bookID);
 		System.out.println(b.pages);
 		System.out.println(b.price);
+		
 	}
 
 }
