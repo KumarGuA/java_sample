@@ -1,6 +1,6 @@
 package ControlStatements.BhoomikaAssesments;
 
-class BankAccount {
+class BankAccount1 {
 	
 	int balance=100;
 	int account_number=5100;
@@ -21,7 +21,7 @@ class BankAccount {
 	}
 	
 }
-class SavingsAccount extends BankAccount {
+class SavingsAccount extends BankAccount1 {
 	
 	int interest =5;
 	int minimum_balance;
@@ -38,7 +38,7 @@ class SavingsAccount extends BankAccount {
 	
 }
 
-public class MainClass {
+public class BankAccount {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
