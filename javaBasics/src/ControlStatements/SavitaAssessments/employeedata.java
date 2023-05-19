@@ -1,6 +1,6 @@
 package ControlStatements.SavitaAssessments;
 
-public class employee {
+public class employeedata {
 
 	String name;
 	String PrimarySkill;
@@ -12,12 +12,12 @@ public class employee {
 
 	}
 
-	public employee() {
+	public employeedata() {
 		System.out.println("I am the resource of XYZ company");
 		About = "Hi, I am exicited to work here...";
 	}
 
-	public employee(String n, String ph) {
+	public employeedata(String n, String ph) {
 		System.out.println("This is welcome msg");
 		name = n;
 		Ph = ph;
@@ -66,19 +66,19 @@ public class employee {
 
 	public static void main(String[] args) {
 
-		employee e1 = new employee("Avinash", "987987987987");
+		employeedata e1 = new employeedata("Avinash", "987987987987");
 		e1.setdetails(id, "UI Automation", "Blah Blah Blah...");
 		e1.printDetails();
 
 		System.out.println("--------------------------");
 
-		employee e2 = new employee("Savitha", "9898676567897");
+		employeedata e2 = new employeedata("Savitha", "9898676567897");
 		e2.setdetails(id, "Security Testing", "Blah Blah Blah...");
 		e2.printDetails();
 
 		System.out.println("--------------------------");
 
-		employee e3 = new employee();
+		employeedata e3 = new employeedata();
 		e3.setdetails("Priyanka", id, "Performance Testing", "lsakdlksajdlkas", "3984732987");
 		e3.printDetails();
 
