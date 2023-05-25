@@ -1,6 +1,14 @@
 package ControlStatements.SavitaAssessments;
 
 class savita {
+	private String name = "Nexon";
+	private int number = 1234;
+
+	{
+		System.out.println("Car name is :" + name);
+		System.out.println("Car number is :" + number);
+	}
+
 	protected void start() {
 		System.out.println("Start the vehicle");
 
