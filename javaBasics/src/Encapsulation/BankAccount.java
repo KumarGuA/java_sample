@@ -38,9 +38,10 @@ public class BankAccount {
 
 		if (newBalance >= 0) {
 			balance = newBalance;
-			System.err.println("Balance updated for the account " + accountNumber + ".");
+			System.out.println();
+			System.out.println("Balance updated for the account " + accountNumber + ".");
 		} else {
-			System.err.println("invalid balance");
+			System.out.println("invalid balance");
 		}
 
 	}
