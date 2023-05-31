@@ -1,7 +1,7 @@
-package PriyankaP2;
+package AccessModifier.PriyankaP2;
 
 
-import PriyankaP1.A;
+import AccessModifier.PriyankaP1.A;
 
 public class B extends A{
 	
