@@ -1,4 +1,4 @@
-package PriyankaP1;
+package AccessModifier.PriyankaP1;
 
 public class A {
 	
