@@ -17,7 +17,7 @@ public class MainClass {
 		students[1].setNameAndAge("Pooja", 28);
 		students[2].setNameAndAge("Savita", 30);
 
-		Gender obj = new Gender();
+		Student obj = new Student();
 
 		bhoomika.introduce();
 		obj.gender();
