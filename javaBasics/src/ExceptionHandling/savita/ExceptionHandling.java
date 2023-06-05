@@ -19,10 +19,10 @@ public class Exceptionhandling {
 
 	void arrayindex() {
 		try {
-			System.out.println(a[7]);
+			System.out.println(a[6]);
 
 		} catch (ArrayIndexOutOfBoundsException ai) {
-			System.out.println("Warning: ArrayIndexOutOfBoundsException");
+			System.out.println("Exception: ArrayIndexOutOfBoundsException");
 		}
 	}
 
