@@ -1,9 +1,8 @@
 package ControlStatements.BhoomikaAssesments;
 
 public class Employe {
-	
 
-	static int id=0;
+	static int id = 0;
 	{
 		id++;
 	}
@@ -11,7 +10,6 @@ public class Employe {
 	String PrimarySkill;
 	String About;
 	String Ph;
-	
 
 	public Employe() {
 		System.out.println("I am the resource of XYZ company");
@@ -48,7 +46,6 @@ public class Employe {
 		System.out.println("About - " + About);
 		System.out.println("Ph - " + Ph);
 	}
-
 
 	public static void main(String[] args) {
 

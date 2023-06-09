@@ -23,7 +23,7 @@ public class NestedTryBlockEx1 {
 				System.out.println(aie.toString());
 			}
 		} // Outer try block ends here.
-		// Outer catch block.
+			// Outer catch block.
 		catch (NullPointerException npe) {
 			System.out.println("Exception is thrown ");
 			System.out.println(npe.toString());

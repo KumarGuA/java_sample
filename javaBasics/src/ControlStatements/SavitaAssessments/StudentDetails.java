@@ -21,7 +21,7 @@ public class StudentDetails {
 
 		Name = name;
 		rollNo = rolNo;
-        System.out.println("Student name :" + name);
+		System.out.println("Student name :" + name);
 		System.out.println("Student rolno : " + rolNo);
 		System.out.println("Total is : " + TotalMarks);
 		System.out.println("Percentage is : " + TotalMarks * 100 / 300);
@@ -37,7 +37,6 @@ public class StudentDetails {
 		StudentDetails stud = new StudentDetails();
 		stud.calculateTotal(55, 89, 96);
 		stud.displayStudDetails("Sahasra", 24);
-		
 
 	}
 

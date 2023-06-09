@@ -1,17 +1,13 @@
 package ControlStatements;
 
-import java.security.PublicKey;
-
 public class ControlStatementsExample {
 
-	
 	public void name() {
-		
+
 	}
+
 	public static void main(String[] args) {
-  
-		
-       
+
 		// comments
 		// 1- if statements (conditional statements)
 //		int num1=30;
@@ -20,8 +16,8 @@ public class ControlStatementsExample {
 //		int res=0;
 //		
 //		res=(num1>num2)?(num1+num2):(num1-num2);
-		//System.out.println(res);
-		
+		// System.out.println(res);
+
 //		  int time=22; 
 //		  if(time < 45) { 			  
 //			  if(time >23)
@@ -35,14 +31,14 @@ public class ControlStatementsExample {
 //		  
 //				  System.out.println("GOOD AFTERNOON");
 //		  }
-		 
+
 		// 2- switch statements
-            //		int day = 10;
-           //		switch (day) {
-           //		case 1:
-           //			System.out.println("MONDAY");
-           //			break;
-           //		case 2:
+		// int day = 10;
+		// switch (day) {
+		// case 1:
+		// System.out.println("MONDAY");
+		// break;
+		// case 2:
 //			System.out.println("TUESDAY");
 //			break;
 //		case 3:
@@ -75,7 +71,7 @@ public class ControlStatementsExample {
 //			}
 //			System.out.println(i);	
 //		}
-	
+
 // 7- continue statements
 //		for(int i=0;i<10;i++)
 //		{
@@ -85,8 +81,8 @@ public class ControlStatementsExample {
 //			}
 //			System.out.println(i);
 //		}
-		//Nested for loop
-		//outer loop
+		// Nested for loop
+		// outer loop
 //		for (int i = 1; i <= 2; i++) {
 //			System.out.println("outer " + i);  // excutes 2 times
 //
@@ -95,8 +91,6 @@ public class ControlStatementsExample {
 //				System.out.println("inner " + j); // Excutes 6 times (2*3) 
 //			}
 //		}
-		
-		
+
 	}
 }
-

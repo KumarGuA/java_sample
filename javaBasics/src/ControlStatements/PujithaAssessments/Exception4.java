@@ -1,12 +1,12 @@
 package ControlStatements.PujithaAssessments;
 
-class NumExcep{
+class NumExcep {
 	public void numformat(String str) {
 		try {
-			int i= Integer.parseInt(str);
+			int i = Integer.parseInt(str);
 			System.out.println(i);
 		} catch (NumberFormatException e) {
-			System.out.println("Please enter proper number based on it's type: "+e);
+			System.out.println("Please enter proper number based on it's type: " + e);
 		}
 	}
 }

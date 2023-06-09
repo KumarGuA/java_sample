@@ -41,9 +41,7 @@ public class DetailsCar implements Vehicle, Convertible, Electric {
 		Cardt.stop();
 		Cardt.openRoof();
 		Cardt.chargeBattery();
-		
-		
-		
+
 	}
 
 }

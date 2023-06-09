@@ -4,8 +4,8 @@ public class SwitchCaseEnvCheck {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String TestURL="http://test.com", DevURL="http://Dev.com", UatURL="http://uat.com", environment= "uat";
-		
+		String TestURL = "http://test.com", DevURL = "http://Dev.com", UatURL = "http://uat.com", environment = "uat";
+
 		switch (environment) {
 		case "test": {
 			System.out.println(TestURL);

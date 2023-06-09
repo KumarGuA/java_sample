@@ -1,11 +1,10 @@
 package ControlStatements.PujithaAssessments;
 
-
-class Animal{
+class Animal {
 	String name;
 	String species;
-	int  age;
-	
+	int age;
+
 	void animalDetails() {
 		name = "chow chow";
 		species = "bhow bhow";
@@ -13,12 +12,12 @@ class Animal{
 	}
 }
 
-class Dog extends Animal{
+class Dog extends Animal {
 	String breed;
-	
+
 	void animalBreed() {
 		breed = "shitzu";
-		System.out.println("species: "+species+", name: "+name+", age: " + age+", breed: " + breed);
+		System.out.println("species: " + species + ", name: " + name + ", age: " + age + ", breed: " + breed);
 	}
 }
 

@@ -5,26 +5,31 @@ package ControlStatements.PujithaAssessments;
 //Implement the methods such that calling deposit() and withdraw() updates the account balance, and calling getBalance()
 //returns the current balance.
 
-interface Bank{
+interface Bank {
 	void deposit(double amount);
+
 	void withdraw(double amount);
+
 	double getBalance();
 }
 
-class SavingsAccount1 implements Bank{
-	
+class SavingsAccount1 implements Bank {
+
 	double balance;
+
 	public void deposit(double amount) {
 		balance += amount;
-		System.out.println("Deposited "+amount+" rupees. Current Balance is: "+balance);
+		System.out.println("Deposited " + amount + " rupees. Current Balance is: " + balance);
 	}
+
 	public void withdraw(double amount) {
 		balance -= amount;
-		System.out.println("Withdrawn "+amount+" rupees. Current Balance is: "+balance);
+		System.out.println("Withdrawn " + amount + " rupees. Current Balance is: " + balance);
 
 	}
+
 	public double getBalance() {
-		System.out.println("Current available balance: "+balance);
+		System.out.println("Current available balance: " + balance);
 		return balance;
 	}
 }

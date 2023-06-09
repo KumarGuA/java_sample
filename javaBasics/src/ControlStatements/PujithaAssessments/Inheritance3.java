@@ -1,44 +1,43 @@
 package ControlStatements.PujithaAssessments;
 
-class shape{
-	
+class shape {
+
 	String color;
 	int size;
-	
+
 	void shapeColor(String color) {
 		this.color = color;
-		System.out.println("shape color is: "+ color);
+		System.out.println("shape color is: " + color);
 	}
-	
+
 	void shapeArea(int size) {
 		this.size = size;
-		System.out.println("Entered Size for area: "+size);
+		System.out.println("Entered Size for area: " + size);
 	}
-	
+
 	void shapePerimeter(int size) {
 		this.size = size;
-		System.out.println("Entered size fo perimeter: "+size);
+		System.out.println("Entered size fo perimeter: " + size);
 	}
-	
+
 }
 
-class square extends shape{
-	
+class square extends shape {
+
 	int sideLength;
-	
+
 	void calculateArea() {
 		sideLength = size;
-		int area = sideLength*sideLength;
-		System.out.println("Area of square: "+area);
+		int area = sideLength * sideLength;
+		System.out.println("Area of square: " + area);
 	}
-	
+
 	void calculatePerimeter() {
 		sideLength = size;
-		int perimeter = 4*sideLength;
-		System.out.println("Perimeter of square: "+perimeter);
+		int perimeter = 4 * sideLength;
+		System.out.println("Perimeter of square: " + perimeter);
 	}
 }
-
 
 public class Inheritance3 {
 
@@ -48,7 +47,7 @@ public class Inheritance3 {
 		s.shapeArea(4);
 		s.shapePerimeter(4);
 		s.calculateArea();
-		s.calculatePerimeter();	
+		s.calculatePerimeter();
 	}
-	
+
 }

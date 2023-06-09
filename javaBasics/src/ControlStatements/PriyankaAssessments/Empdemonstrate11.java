@@ -1,7 +1,7 @@
 package ControlStatements.PriyankaAssessments;
 
 public class Empdemonstrate11 {
-	
+
 	public static void main(String[] args) {
 		Employee11 obj = new Employee11();
 		obj.setName("Priyanka");
@@ -13,5 +13,3 @@ public class Empdemonstrate11 {
 
 	}
 }
-
-
