@@ -12,7 +12,7 @@ public class ExceptionHandling {
 		try {
 			div = (a[0] / 0);
 			System.out.println(a[7]);
-		} catch (ArithmeticException e) {
+		} catch (ArithmeticException ae) {
 			System.out.println("Warning: ArithmeticException");
 		}
 	}
