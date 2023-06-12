@@ -1,4 +1,5 @@
 package ControlStatements.BhoomikaAssesments;
+
 class Shape1 {
 
 	public void color() {
@@ -14,9 +15,9 @@ class Shape1 {
 class Square extends Shape1 {
 	public void side_length() {
 		int side_length = 3;
-		int area =(side_length * 4);
-		System.out.println("Square length per side : " +side_length+ "cm");
-		System.out.println("Total area of square is : " +area );
+		int area = (side_length * 4);
+		System.out.println("Square length per side : " + side_length + "cm");
+		System.out.println("Total area of square is : " + area);
 	}
 }
 

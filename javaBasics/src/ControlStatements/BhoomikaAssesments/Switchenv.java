@@ -3,7 +3,7 @@ package ControlStatements.BhoomikaAssesments;
 public class Switchenv {
 
 	public static void main(String[] args) {
-      
+
 		String TestURL = "http://test.com";
 		String DevURL = "http://Dev.com";
 		String UatURL = "http://uat.com";

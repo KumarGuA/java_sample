@@ -22,7 +22,6 @@ public class Largestnoin3 {
 			}
 		}
 		System.out.println("biggest number :" + biggest);
- 
+
 	}
 }
-

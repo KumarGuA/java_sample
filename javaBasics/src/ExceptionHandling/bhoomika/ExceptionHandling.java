@@ -49,6 +49,7 @@ public class ExceptionHandling {
 			System.out.println("Warning: FileNotFoundException");
 		}
 	}
+
 	void CustomException() {
 		try {
 			// Throw an object of user defined exception
@@ -59,10 +60,11 @@ public class ExceptionHandling {
 
 		}
 	}
+
 	void NumberFormatException() {
 		try {
 			Integer.parseInt(null);
-		}catch (NumberFormatException npe) {
+		} catch (NumberFormatException npe) {
 			System.out.println("warining: NumberFormatException");
 		}
 	}
