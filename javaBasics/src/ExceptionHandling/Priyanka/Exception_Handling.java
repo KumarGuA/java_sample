@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
 public class Exception_Handling {
-	
+
 	int a[] = { 1, 2, 3 };
 	int div;
 
@@ -38,15 +38,16 @@ public class Exception_Handling {
 	}
 
 	void FileNotFound() {
-		
+
 		try {
 			FileInputStream file = new FileInputStream("java.txt");
 
 		} catch (FileNotFoundException fnfe) {
-			
+
 			System.out.println("Warning: FileNotFoundException");
 		}
 	}
+
 	void CustomException() {
 		try {
 			// Throw an object of user defined exception
@@ -57,10 +58,11 @@ public class Exception_Handling {
 
 		}
 	}
+
 	void NumberFormatException() {
 		try {
 			Integer.parseInt(null);
-		}catch (NumberFormatException npe) {
+		} catch (NumberFormatException npe) {
 			System.out.println("warining: NumberFormatException");
 		}
 	}

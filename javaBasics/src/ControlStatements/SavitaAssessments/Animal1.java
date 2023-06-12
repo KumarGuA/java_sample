@@ -1,4 +1,5 @@
 package ControlStatements.SavitaAssessments;
+
 class Animal {
 
 	public void name() {
@@ -20,8 +21,7 @@ class Cat extends Animal {
 	}
 }
 
-public class Animal1 
-{
+public class Animal1 {
 	public static void main(String[] args) {
 
 		Cat Cat1 = new Cat();

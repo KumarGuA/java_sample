@@ -17,13 +17,12 @@ class countVowelsConsonents {
 		vowels.add('o');
 		vowels.add('u');
 
-		int i=0;
-		while(i< str.length()) {
-			if(vowels.contains(str.charAt(i))) {
-				vc+=1;
-			}
-			else {
-				cc+=1;
+		int i = 0;
+		while (i < str.length()) {
+			if (vowels.contains(str.charAt(i))) {
+				vc += 1;
+			} else {
+				cc += 1;
 			}
 			i++;
 		}

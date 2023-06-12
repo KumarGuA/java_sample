@@ -1,10 +1,12 @@
 package oops.bhoomika;
+
 class Gender {
 	public void gender() {
 		System.out.println("Gender : Female");
 	}
-	
+
 }
+
 public class Student extends Gender {
 	private String name;
 	private int age;

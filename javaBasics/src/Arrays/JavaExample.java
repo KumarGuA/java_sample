@@ -14,7 +14,7 @@ public class JavaExample {
 		// array declaration ,instantiated and initialization
 //		int number[] = { 11, 22, 33, 44, 55 };
 //		
-		String name[] = { "pujitha","priyanka","savitha","Bhoomika"};
+		String name[] = { "pujitha", "priyanka", "savitha", "Bhoomika" };
 //
 //		// System.out.println(number[2]);
 //		// print array elements
@@ -28,9 +28,8 @@ public class JavaExample {
 //			System.out.println("name ["+name[i]+"]");
 //		}
 		// iterating using foreach loop
-		for (String str: name)
-		{
-			System.out.println(str+" ");
+		for (String str : name) {
+			System.out.println(str + " ");
 		}
 
 		// two dimensional array

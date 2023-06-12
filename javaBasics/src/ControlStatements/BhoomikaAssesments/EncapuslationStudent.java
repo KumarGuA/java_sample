@@ -19,7 +19,7 @@ public class EncapuslationStudent {
 	}
 
 	public String getAge() {
-		return age; 
+		return age;
 	}
 
 	public void setMajor(String Major) {
