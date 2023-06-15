@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 import java.util.Scanner;
 
-public class FileSearch {
+public class FileSearchSavita {
 
 	public static void main(String[] argv) throws Exception {
 

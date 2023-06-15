@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
-public class ZipFile {
+public class ZipFileSavita {
 
     public static void main(String[] args) throws IOException {
         String file1 = "C:\\\\selenium\\\\Demo1.txt";
