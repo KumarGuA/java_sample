@@ -1,10 +1,10 @@
-package file.bhoomika;
+package fileConcept;
 
 import java.io.File;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class FileSearch {
+public class Bhoomika_FileSearch {
 
 	public static void main(String[] argv) throws Exception {
 	      System.out.println("Enter the directory path: ");

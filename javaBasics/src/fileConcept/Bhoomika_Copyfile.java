@@ -1,10 +1,10 @@
-package file.bhoomika;
+package fileConcept;
 
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.util.Scanner;
 
-public class Copyfile {
+public class Bhoomika_Copyfile {
 
 	public static void main(String arg[]) throws Exception {  
 		  Scanner sc = new Scanner(System.in);  

@@ -1,4 +1,4 @@
-package file.bhoomika;
+package fileConcept;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
-public class FileArchiver {
+public class Bhoomika_FileArchiver {
 
 	public static void main(String[] args) throws IOException {
 		String f1 = "C:\\selenium\\java1.txt";

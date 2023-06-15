@@ -1,9 +1,9 @@
-package file.bhoomika;
+package fileConcept;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 
-public class WordCounter {
+public class Bhoomika_WordCounter {
 
 	public static void main(String[] args) throws Exception {
 		String word;
