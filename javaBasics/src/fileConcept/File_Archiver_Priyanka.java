@@ -1,4 +1,4 @@
-package JavaFiles.Priyanka;
+package fileConcept;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
-public class File_Archiver
+public class File_Archiver_Priyanka
 {
 
 	public static void main(String[] args) throws IOException 

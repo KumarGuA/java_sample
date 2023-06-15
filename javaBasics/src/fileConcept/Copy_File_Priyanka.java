@@ -1,9 +1,9 @@
-package JavaFiles.Priyanka;
+package fileConcept;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.util.Scanner;
 
-public class Copy_File {
+public class Copy_File_Priyanka {
 	
 public static void main(String arg[]) throws Exception {  
 Scanner sc = new Scanner(System.in);  

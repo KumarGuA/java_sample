@@ -1,9 +1,9 @@
-package JavaFiles.Priyanka;
+package fileConcept;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 
-public class Word_Counter {
+public class Word_Counter_Priyanka {
 	public static void main(String[] args) throws Exception {
 		String word;
 		int count = 0;

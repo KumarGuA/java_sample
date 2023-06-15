@@ -1,10 +1,10 @@
-package JavaFiles.Priyanka;
+package fileConcept;
 
 import java.io.File;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Search_File {
+public class Search_File_Priyanka {
 
 	public static void main(String[] argv) throws Exception {
 System.out.println("Enter the directory path: ");
