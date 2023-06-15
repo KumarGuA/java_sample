@@ -6,7 +6,7 @@ import java.io.FileWriter;
 
 import java.util.Scanner;
 
-public class CopyFile {
+public class CopyFileSavita {
 
 	public static void main(String arg[]) throws Exception {
 
