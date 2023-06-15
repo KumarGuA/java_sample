@@ -3,7 +3,7 @@ package Files.savita;
 import java.io.BufferedReader;
 import java.io.FileReader;
 
-public class WordCount {
+public class WordCountSavita {
 
 	public static void main(String[] args) throws Exception {
 		String word;
